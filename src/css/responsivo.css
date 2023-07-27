@@ -1,0 +1,458 @@
+@media screen and (max-width: 960px) {
+
+    .cookie-container {
+      display: none !important;
+    }
+
+  .tecnologias-container li.selecionado::after,
+  .tecnologias-container li:hover .texto-hover,
+  .tecnologias-container li::before {
+    display: none !important;
+  }
+
+  .home-container {
+    margin-top: 0px;
+  }
+
+  .btn-voltar-topo {
+    display: none !important;
+  }
+
+  .fotoPerfil, .imgtec {
+    width: 100%;
+    padding-top: 200px;
+  }
+  .fotoPerfil {
+    margin-top: 100px;
+  }
+
+  .nav1 ul {
+    font-size: 16px;
+  }
+
+  .nav1 ul li {
+    padding-right: 10px;
+  }
+
+  .icon {
+    width: 40px;
+    margin-left: 20px;
+  }
+
+  span .name .ul1 {
+    font-size: 1rem;
+  }
+
+  .tecnologias-container {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 400px;
+  }
+
+ 
+
+  .tecnologias-container li {
+    flex: 0 0 20%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .tecnologias-container li img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .mainclass div .fotoPerfil,
+  .projetos-container img {
+    max-width: 100%;
+    min-width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainclass,
+  .container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  div .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  .apresentacao-txt {
+    padding: 0;
+  }
+
+  .apresentacao,
+  .projeto-descricao {
+    text-align: center;
+    min-width: 10%;
+    max-width: 100%;
+  }
+
+  .projetos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projeto-descricao {
+    text-align: center;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .btn-voltar-topo {
+    display: none;
+  }
+
+  .cabecalho {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  span .descricaotxt {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .menulateral {
+    display: none;
+  }
+
+  .name-text {
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+  }
+
+  html body footer {
+    width: 100% !important;
+    height: auto;
+  }
+
+  .sobre-descricao {
+    min-width: 10%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1252px) {
+  span .descricaotxt {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .projeto-descricao img .bleachimg {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  .projetos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  html {
+    min-width: 10%;
+    max-width: 100%;
+  }
+
+  .projeto-descricao {
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 790px) {
+  
+
+  .cookie-container {
+    display: none !important;
+  }
+  .fotoPerfil {
+    margin-top: 150px;
+  }
+  main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+  }
+
+  .descricaotxt {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    right: 90px;
+  }
+  .control {
+    min-width: 10%;
+    max-width: 100%;
+  }
+
+  footer p.txtfooter,
+  img p.txtfooter {
+    min-width: 10%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home {
+    min-width: 10%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer {
+    min-width: 10% !important;
+    max-width: 100% !important;
+  }
+
+  .sobre-hardsoft {
+    display: none;
+  }
+
+  div .teste {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    min-width: 10%;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .btncookie {
+    display: none;
+  }
+
+  #btn-voltar-topo {
+    display: none !important;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .contato-h1 {
+    font-size: 92px;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  div .sobre-descricao {
+    padding: 20px;
+    min-width: 10%;
+    max-width: 100%;
+  }
+
+  .cookie-container {
+    display: none !important;
+  }
+  .footer-content {
+    padding: 0;
+    min-width: 10%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    min-width: 10%;
+    max-width: 100%;
+  }
+
+  .sobreMimTxt {
+    width: 100%;
+    min-width: 10%;
+    padding: 0;
+    font-size: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .apresentacao  {
+    font-size: 30px;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .contato-iconTxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
+
+  .contato-h1 {
+    font-size: 60px;
+    height: auto;
+    padding: 0;
+  }
+
+  .contato-p1,
+  .contato-p2 {
+    font-size: 25;
+    padding-right: 50px;
+  }
+
+  .tecnologias-container {
+    margin-bottom: 100%;
+  }
+
+  .container {
+    margin-top: 100% !important;
+  }
+  
+  .fotoPerfil {
+    margin-top: 100px ;
+  }
+  .cookie-container {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .main-images img,
+  .apresentacao {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-width: 10%;
+    max-width: 100%;
+    font-size: 35px;
+  }
+
+  .contato-p1,
+  .contato-p2 {
+    font-size: 25;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+
+  .contato-h1 {
+    font-size: 70px;
+  }
+  .fotoPerfil {
+  
+    padding-top: 200px !important;
+  }
+  .cookie-container {
+    display: none !important;
+  }
+  
+}
+
+@media screen and (max-width: 1285px) {
+
+.fotoPerfil, .imgtec {
+  width: 100%;
+}
+}
+
+/* Estilos gerais */
+.contato-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.contato-iconTxt {
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .contato-content {
+    text-align: center;
+  }
+
+  .contato-iconTxt {
+    flex-direction: column;
+    padding: 0;
+  }
+.contato-p2 {
+  justify-content: center;
+  display: flex;
+}
+
+  .box {
+    margin-top: 10px;
+  }
+
+  .cookie-container {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contato-content {
+    text-align: center;
+  }
+
+  .cookie-container {
+    display: none !important;
+  }
+
+  .contato-iconTxt {
+    flex-direction: column;
+  }
+
+  .box {
+    margin-top: 10px;
+  }
+}
+
+
+@media screen and (min-width: 801px) {
+  .contato-iconTxt {
+    flex-direction: row;
+  }
+
+  .box {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+
+  .cookie-container {
+    display: none !important;
+  }
+}
+
